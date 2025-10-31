@@ -1,0 +1,83 @@
+.working_space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1120px;
+    height: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w_s-text {
+    width: 829px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+}
+
+.w_s-text1 {
+    color: #FF2D59;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.w_s-text2 {
+    color: #111029;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: -0.1px;
+    text-align: center;
+}
+
+.m_g {
+    display: flex;
+    justify-content: center;
+}
+
+.mg {
+    width: 1112px;
+    height: 980px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.f {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-i {
+    transition: transform 0.5s ease;
+}
+
+.f-i:hover {
+    transform: scale(1.03);
+}
+
+.bg_i1, .bg_i2 {
+    position: absolute;
+    z-index: 0;
+    width: 99.8%;
+    margin-left: -13%;
+    z-index: 0;
+}
+
+.bg_i1 {
+    margin-top: 7.5%;
+}
+
+.bg_i2 {
+    margin-top: 42.5%;
+}

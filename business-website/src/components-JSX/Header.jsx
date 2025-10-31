@@ -1,6 +1,6 @@
 import React from 'react'
-import './CSS/Header.css'
-import Logo from '../assets/default-images/Logo-Ellipse.svg'
+import '../components-CSS//Header.css'
+import Logo from '../assets/default-images/icons-img/Logo-Ellipse.svg'
 
 function Header () {
   return (

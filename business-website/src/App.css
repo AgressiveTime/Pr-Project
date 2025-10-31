@@ -9,4 +9,7 @@
     height: 11053px;
     background-color: white;
     font-family: "Poppins", sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }

@@ -1,9 +1,13 @@
 import { useState } from 'react'
-import Header from './components/Header'
 import './App.css'
-import Banner from './components/Banner'
-import OurServices from './components/OurServices'
-import OurDocumentation from './components/OurDocumentation'
+import Header from './components-JSX/Header'
+import Banner from './components-JSX/Banner'
+import OurServices from './components-JSX/OurServices'
+import OurDocumentation from './components-JSX/OurDocumentation'
+import WorkingSpace from './components-JSX/WorkingSpace'
+import Some_of_OurGreatCustomers from './components-JSX/Some_of_OurGreatCustomers'
+import FrequentlyAskQuestion from './components-JSX/FrequentlyAskQuestion'
+import Testimonials from './components-JSX/Testimonials'
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
       <Banner/>
       <OurServices/>
       <OurDocumentation/>
+      <WorkingSpace/>
+      <Some_of_OurGreatCustomers/>
+      <FrequentlyAskQuestion/>
+      <Testimonials/>
     </div>
   )
 }

@@ -45,6 +45,11 @@
 .gp_img {
     position: absolute;
     z-index: 3;
+    transition: transform 0.5s ease;
+}
+
+.gp_img:hover {
+    transform: scale(0.99);
 }
 
 .bg_img1 {
@@ -65,7 +70,6 @@
 .o_d-content {
     width: 118.7%;
     height: 900px;
-    border: solid 1px red;
     margin-left: -120px;
     margin-top: 195px;
     background-color: #F9F9FD;
@@ -77,7 +81,6 @@
 .content {
     width: 74%;
     height: 702px;
-    border: solid 1px red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,19 +93,19 @@
     justify-content: space-between;
 }
 
-.c1, .c2 {
+.c1_1, .c1_2 {
     width: 270px;
     height: 640px;
 }
 
-.c1 {
+.c1_1 {
     margin-top: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.c2 {
+.c1_2 {
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
@@ -118,6 +121,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.c-card:hover {
+    transform: scale(1.03);
 }
 
 .card-c {
@@ -140,6 +148,7 @@
     letter-spacing: -0.4px;
     line-height: 72px;
     font-weight: 600;
+    cursor: default;
 }
 
 .k7 {
@@ -164,13 +173,57 @@
     line-height: 32px;
     font-weight: 400;
     color: #111029;
+    cursor: default;
 }
 
 .content2 {
     width: 460px;
     height: 702px;
-    border: solid 1px red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.c2-text1 {
+    width: 460px;
+    height: 216px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.4px;
+    color: #111029;
+}
+
+.c2-text2 {
+    width: 460px;
+    height: 128px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #6B6B6B;
+}
+
+.c2-ts {
+    width: 460px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ts {
+    display: flex;
+    width: 460px;
+}
+
+.ts-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #6B6B6B;
+    margin-left: 5%;
 }
