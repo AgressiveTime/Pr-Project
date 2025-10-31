@@ -18,12 +18,43 @@ function OurDocumentation() {
           <img className='bg_img1' src={BgImg1} alt="" />
           <img className='bg_img2' src={BgImg2} alt="" />
         </div>
-
       </div>
       <div className='o_d-content'>
         <div className='content'>
           <div className='content1'>
-            
+            <div className='c1'>
+              <div className='c-card c1-card1'>
+                <div className='card-c'>
+                  <div className='h k7'>70K+</div>
+                  <div className='q'>We have more than<br/>
+                  customers</div>
+                </div>
+              </div>
+              <div className='c-card c1-card2'>
+                <div className='card-c cc'>
+                  <div className='h m1'>10M+</div>
+                  <div className='q'>People who are helped<br/>
+                  because of our hard
+                  <br/>work</div>
+                </div>
+              </div>
+            </div>
+            <div className='c2'>
+              <div className='c-card c2-card1'>
+                <div className='card-c'>
+                  <div className='h n1'>100+</div>
+                  <div className='q'>Projects we have<br/>
+                  completed</div>
+                </div>
+              </div>
+              <div className='c-card c2-card2'>
+                <div className='card-c'>
+                  <div className='h n2'>200+</div>
+                  <div className='q'>Support from world-<br/>
+                  renowned companies</div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className='content2'>
 
