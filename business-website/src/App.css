@@ -4,12 +4,7 @@
 
 .pg {
     border: solid 1px black;
-    padding: 0 120px 0 120px;
-    width: 84%;
     height: 11053px;
     background-color: white;
     font-family: "Poppins", sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }

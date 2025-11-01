@@ -25,21 +25,25 @@
 }
 
 .o_s-text1 {
+    color: #FF2D59;
     display: flex;
     justify-content: center;
-    color: #FF2D59;
-    font-size: 20px;
     font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 .o_s-text2 {
+    color: #111029;
     display: flex;
     justify-content: center;
-    text-align: center;
-    color: #111029;
-    font-size: 42px;
     font-weight: 600;
+    font-size: 42px;
     line-height: 56px;
+    letter-spacing: -0.1px;
+    text-align: center;
 }
 
 .cards-1, .cards-2 {

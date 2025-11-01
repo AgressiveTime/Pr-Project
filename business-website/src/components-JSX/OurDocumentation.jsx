@@ -3,7 +3,7 @@ import '../components-CSS//OurDocumentation.css'
 import GroupImg from '../assets/default-images/icons-img/Group.png'
 import BgImg1 from '../assets/background-images/BgImg1.png'
 import BgImg2 from '../assets/background-images/BgImg2.png'
-import ExcludeImg from '../assets/default-images/icons-img/Exclude.svg'
+import ExcludeImg from '../assets/default-images/icons-img/Check.svg'
 
 function OurDocumentation() {
   return (
@@ -21,8 +21,8 @@ function OurDocumentation() {
         </div>
       </div>
       <div className='o_d-content'>
-        <div className='content'>
-          <div className='content1'>
+        <div className='od-content'>
+          <div className='od-content1'>
             <div className='c1_1'>
               <div className='c-card c1_1-card1'>
                 <div className='card-c'>
@@ -57,7 +57,7 @@ function OurDocumentation() {
               </div>
             </div>
           </div>
-          <div className='content2'>
+          <div className='od-content2'>
             <div className='c2-text1'>Customer<br />
               satisfaction is<br />
               our first priority</div>

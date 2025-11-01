@@ -19,21 +19,25 @@
 }
 
 .o_d-text1 {
+    color: #FF2D59;
     display: flex;
     justify-content: center;
-    color: #FF2D59;
-    font-size: 20px;
     font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
 }
 
 .o_d-text2 {
+    color: #111029;
     display: flex;
     justify-content: center;
-    text-align: center;
-    color: #111029;
-    font-size: 42px;
     font-weight: 600;
+    font-size: 42px;
     line-height: 56px;
+    letter-spacing: -0.1px;
+    text-align: center;
 }
 
 .group {
@@ -68,17 +72,16 @@
 }
 
 .o_d-content {
-    width: 118.7%;
+    width: 100%;
     height: 900px;
-    margin-left: -120px;
-    margin-top: 195px;
+    margin-top: 200px;
     background-color: #F9F9FD;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content {
+.od-content {
     width: 74%;
     height: 702px;
     display: flex;
@@ -86,7 +89,7 @@
     align-items: center;
 }
 
-.content1 {
+.od-content1 {
     width: 580px;
     height: 690px;
     display: flex;
@@ -176,7 +179,7 @@
     cursor: default;
 }
 
-.content2 {
+.od-content2 {
     width: 460px;
     height: 702px;
     display: flex;

@@ -1,5 +1,6 @@
 .banner {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     height: 497.18px;
     margin-top: 75.2px;
     display: flex;
@@ -87,6 +88,7 @@
 .bg_images {
     position: absolute;
     pointer-events: none;
+    margin-left: -45px;
 }
 
 .i1 {

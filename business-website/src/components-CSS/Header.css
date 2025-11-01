@@ -1,5 +1,6 @@
 .header {
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     height: 64px;
     margin-top: 28px;
     display: flex;
@@ -55,12 +56,11 @@
     color: #6B6B6B;
     text-decoration: none;
     cursor: default;
-    transition: color 0.5s ease, transform 0.5s ease;
+    transition: color 0.5s ease;
 }
 
 .nav-1:hover, .nav-2:hover, .nav-3:hover {
     color: #4C40F7;
-    transform: scale(1.1);
 }
 
 .button {
