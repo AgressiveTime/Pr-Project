@@ -7,7 +7,7 @@ function Header () {
     <div className='header'>
       <div className='hdr'>
         <div className='logo'>
-          <img className='logo-img' src={Logo} alt="" />
+          <img className='logo_img' src={Logo} alt="" />
         </div>
         <div className='nav'>
           <div className='nav-1'>Home</div>

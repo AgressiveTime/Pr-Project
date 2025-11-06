@@ -8,6 +8,7 @@ import WorkingSpace from './components-JSX/WorkingSpace'
 import Some_of_OurGreatCustomers from './components-JSX/Some_of_OurGreatCustomers'
 import FrequentlyAskQuestion from './components-JSX/FrequentlyAskQuestion'
 import Testimonials from './components-JSX/Testimonials'
+import Basement from './components-JSX/Basement'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Some_of_OurGreatCustomers/>
       <FrequentlyAskQuestion/>
       <Testimonials/>
+      <Basement/>
     </div>
   )
 }
