@@ -139,6 +139,7 @@
     letter-spacing: -0.1px;
     text-align: center;
     margin-top: -15px;
+    color: #FFFFFF;
 }
 
 .ct_t {
@@ -155,6 +156,7 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .t-t2 {
@@ -163,6 +165,7 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .items {
@@ -177,6 +180,41 @@
     height: 4px;
     background-color: #FFCC00;
     border-radius: 2px;
-    cursor: pointer; /* Добавьте это */
-    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ee img {
+    box-shadow: -10px 15px 30px 0px rgba(253, 52, 110, 0.3);
+}
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .soogc-text1 {
+        color: #FFCC00;
+    }
+
+    .soogc-text2 {
+        color: #FFFFFF;
+    }
+
+    .u1 img, .u2 img {
+        filter: brightness(0) invert(1);
+    }
+
+    .carousel {
+        background-color: #020E2D;
+    }
+
+    .ct-prev img, .ct-next img {
+        filter: brightness(0) invert(1);
+    }
+
+    .ct-prev, .ct-next {
+        background-color: #212C3A;
+    }
+
+    .ee img {
+        box-shadow: -10px 15px 30px 0px rgba(76, 64, 247, 0.25);
+    }
 }

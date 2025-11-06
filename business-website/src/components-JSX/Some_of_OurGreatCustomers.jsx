@@ -86,7 +86,7 @@ function Some_of_OurGreatCustomers() {
           </div>
           <div className='cl-content'>
             <div className='c_t'>
-              <div>
+              <div className='ee'>
                 <img src={Ee} alt="Quote" />
               </div>
               <div className='ct'>

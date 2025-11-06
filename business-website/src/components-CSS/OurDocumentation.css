@@ -230,3 +230,34 @@
     color: #6B6B6B;
     margin-left: 5%;
 }
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .o_d-text1 {
+        color: #FFCC00;
+    }
+
+    .o_d-text2 {
+        color: #ffffff;
+    }
+
+    .o_d-content {
+        background-color: #020E2D;
+    }
+
+    .c-card {
+        background-color: #4C40F7;
+    }
+
+    .k7, .q {
+        color: #ffffff;
+    }
+
+    .q {
+        opacity: 0.7;
+    }
+
+    .c2-text1, .c2-text2, .ts-text {
+        color: #FFFFFF;
+    }
+}

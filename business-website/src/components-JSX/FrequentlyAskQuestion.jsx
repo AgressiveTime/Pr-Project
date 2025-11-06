@@ -66,7 +66,7 @@ function FrequentlyAskQuestion() {
             </button>
             <div className="faq-answer">
               <div className="answer-divider"></div>
-              <div className='f-a'>{item.answer}</div>
+              <div className='answer-text'>{item.answer}</div>
             </div>
           </div>
         ))}

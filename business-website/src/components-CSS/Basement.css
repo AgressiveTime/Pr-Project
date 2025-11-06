@@ -106,6 +106,7 @@
     background-color: #FFFFFF;
     margin-bottom: 80px;
     border-radius: 11px;
+    box-shadow: 0px 8px 50px 0px rgba(49, 35, 248, 1);
 }
 
 .b1-input {
@@ -284,12 +285,6 @@
     white-space: nowrap;
 }
 
-.d {
-    width: 100%;
-    height: 16px;
-    background-color: #FFFFFF;
-}
-
 .line {
     width: 77.78%;
     height: 1px;
@@ -312,6 +307,17 @@
     justify-content: space-between;
 }
 
+.bt-left {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ABAFC7;
+    cursor: default;
+    transition: transform 0.3s ease;
+}
+
 .bt-text {
     font-weight: 400;
     font-size: 16px;
@@ -319,10 +325,26 @@
     letter-spacing: 0px;
     text-align: center;
     color: #ABAFC7;
-    cursor: pointer;
+    cursor: default;
     transition: transform 0.3s ease;
 }
 
 .bt-text:hover {
     transform: scale(1.05);
+}
+
+.d {
+    width: 100%;
+    height: 16px;
+    background-color: #FFFFFF;
+}
+@media (prefers-color-scheme: dark) {
+    .basement1-input, .b1-input {
+        background-color: #00113B;
+        color: #FFFFFF;
+    }
+
+    .d {
+        background-color: #00113B;
+    }
 }

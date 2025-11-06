@@ -5,6 +5,7 @@ import SendIcon from '../assets/default-images/icons-img/SendIcon.svg'
 import LogoImg from '../assets/default-images/icons-img/Logo-Ellipse.svg'
 import M from '../assets/default-images/cards-img/m.svg'
 import D from '../assets/default-images/icons-img/d.svg'
+
 function Basement() {
     return (
         <div className='basement'>
@@ -66,7 +67,7 @@ function Basement() {
                 </div>
                 <div className="line"></div>
                 <div className="bt">
-                    <div className='bt-left bt-text'>© 2021 Creative Agency</div>
+                    <div className='bt-left'>© 2021 Creative Agency</div>
                     <div className='bt-right'>
                         <div className='bt-text'>Home</div>
                         <div className='bt-text'>Works</div>

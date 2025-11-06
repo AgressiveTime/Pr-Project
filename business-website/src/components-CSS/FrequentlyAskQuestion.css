@@ -59,7 +59,7 @@
 }
 
 .faq_i.active {
-    border-color: #4C40F7;
+    border: solid 2px #4C40F7;
 }
 
 .faq-question {
@@ -75,10 +75,6 @@
     text-align: left;
     transition: background-color 0.2s ease;
     color: #111029;
-}
-
-.faq-question:hover {
-    background-color: #f8f9fa;
 }
 
 .question-text {
@@ -115,7 +111,7 @@
     margin: 0 32px;
 }
 
-.f-a {
+.answer-text {
     padding: 24px 32px;
     font-weight: 400;
     font-size: 18px;
@@ -139,4 +135,31 @@
 .bg_b {
     position: absolute;
     margin-top: -60%;
+}
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .faq-text1 {
+        color: #FFCC00;
+    }
+
+    .faq-text2 {
+        color: #FFFFFF;
+    }
+
+    .faq-question {
+        background-color: #00113B;
+    }
+
+    .question-text {
+        color: #FFFFFF;
+    }
+
+    .faq-answer {
+        background-color: #00113B;
+    }
+    
+    .answer-text {
+        color: #FFFFFF;
+    }
 }

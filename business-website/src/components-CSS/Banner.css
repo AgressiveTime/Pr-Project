@@ -22,6 +22,7 @@
 .text1 {
     font-size: 56px;
     font-weight: 600;
+    color: #111029;
 }
 
 .text1 span {
@@ -110,4 +111,19 @@
     width: 99.8%;
     margin-top: -27%;
     z-index: 0;
+}
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .text1 {
+        color: #FFFFFF;
+    }
+
+    .text1 span {
+        color: #FFCC00;
+    }
+
+    .text2 {
+        color: #ffffff;
+    }
 }

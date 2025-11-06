@@ -80,3 +80,14 @@
 .bg_i2 {
     margin-top: -31.7%;
 }
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .w_s-text1 {
+        color: #FFCC00;
+    }
+
+    .w_s-text2 {
+        color: #FFFFFF;
+    }
+}

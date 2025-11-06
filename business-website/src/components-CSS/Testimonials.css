@@ -148,3 +148,26 @@
     justify-content: space-between;
     cursor: default;
 }
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .testimonials {
+        background-color: #020E2D;
+    }
+
+    .tstmnls-text1 {
+        color: #FFCC00;
+    }
+
+    .tstmnls-text2 {
+        color: #ffffff;
+    }
+
+    .t-c {
+        background-color: #00113B;
+    }
+
+    .tc-name, .tc-c, .tc-description {
+        color: #FFFFFF;
+    }
+}

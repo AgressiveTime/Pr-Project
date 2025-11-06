@@ -15,7 +15,7 @@ function Header () {
           <div className='nav-3'>About</div>
         </div>
         <div className='button'>
-          <div>Contact us</div>
+          <div className='bn-text'>Contact us</div>
         </div>
       </div>
     </div>

@@ -8,3 +8,10 @@
     background-color: white;
     font-family: "Poppins", sans-serif;
 }
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+    .pg {
+        background-color: #00113B;
+    }
+}
