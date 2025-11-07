@@ -12,11 +12,11 @@ function Header() {
           </div>
         </a>
         <div className='nav'>
-          <a className='a' href=""><div className='nav-1'>Home</div></a>
-          <a className='a' href=""><div className='nav-2'>Works</div></a>
-          <a className='a' href=""><div className='nav-3'>About</div></a>
+          <a className='a' href="#section1"><div className='nav-1'>Home</div></a>
+          <a className='a' href="#section2"><div className='nav-2'>Works</div></a>
+          <a className='a' href="#section3"><div className='nav-3'>About</div></a>
         </div>
-        <a className='a' href="">
+        <a className='a' href="http://" target="_blank" rel="noopener noreferrer">
           <div className='button'>
             <div className='bn-text'>Contact us</div>
           </div>

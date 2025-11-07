@@ -1,3 +1,10 @@
+#section1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
 .our_services {
     width: 1056px;
     height: 1169px;
