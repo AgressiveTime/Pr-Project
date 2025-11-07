@@ -33,7 +33,7 @@ function Basement() {
                 <div className="basement2-content">
                     <div className="b2-content1">
                         <div className='c1-logo'>
-                            <img className='logo_img' src={LogoImg} alt="" />
+                            <img className='logo-img' src={LogoImg} alt="" draggable="false" />
                         </div>
                         <div className='dd-text'>Lorem ipsum dolor sit amet, consectetur<br />
                             adipiscing elit, sed do eiusmod tempor<br />
@@ -69,11 +69,11 @@ function Basement() {
                 <div className="bt">
                     <div className='bt-left'>© 2021 Creative Agency</div>
                     <div className='bt-right'>
-                        <div className='bt-text'>Home</div>
-                        <div className='bt-text'>Works</div>
-                        <div className='bt-text'>About</div>
-                        <div className='bt-text'>Pricing</div>
-                        <div className='bt-text'>About</div>
+                        <a className='a' href=""><div className='bt-text'>Home</div></a>
+                        <a className='a' href=""><div className='bt-text'>Works</div></a>
+                        <a className='a' href=""><div className='bt-text'>About</div></a>
+                        <a className='a' href=""><div className='bt-text'>Pricing</div></a>
+                        <a className='a' href=""><div className='bt-text'>About</div></a>
                     </div>
                 </div>
             </div>
